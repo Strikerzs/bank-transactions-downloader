@@ -280,7 +280,7 @@ const manifest: ManifestType = {
     "48": "logo/default/logo-48.png",
     "128": "logo/default/logo-128.png",
   },
-  permissions: ["storage", "activeTab", "declarativeContent", "scripting"]
+  permissions: ["storage", "activeTab", "scripting"]
 };
 
 export default manifest;
