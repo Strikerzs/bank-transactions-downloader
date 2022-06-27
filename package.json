@@ -1,0 +1,40 @@
+{
+  "name": "extension-popup-react",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "build-extension": "tsc --noEmit && vite build",
+    "dev-extension": "nodemon",
+    "prettier": "npx prettier --write .",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "@types/offscreencanvas": "^2019.7.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.190",
+    "@types/node": "^18.0.0",
+    "@types/papaparse": "^5.3.2",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.0",
+    "nodemon": "^2.0.16",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.0",
+    "tailwindcss": "^3.1.2",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  }
+}

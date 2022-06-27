@@ -1,0 +1,28 @@
+{
+  "name": "Bank Transactions Downloader",
+  "description": "Downloads all transactions for a bank account",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "logo/default/logo-16.png",
+      "32": "logo/default/logo-32.png",
+      "48": "logo/default/logo-48.png",
+      "128": "logo/default/logo-128.png"
+    },
+    "default_popup": "src/pages/popup/index.html",
+    "default_title": "Bank Transactions Downloader"
+  },
+  "icons": {
+    "16": "logo/default/logo-16.png",
+    "32": "logo/default/logo-32.png",
+    "48": "logo/default/logo-48.png",
+    "128": "logo/default/logo-128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "declarativeContent",
+    "scripting"
+  ]
+}
